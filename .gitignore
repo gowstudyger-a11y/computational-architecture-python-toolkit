@@ -216,3 +216,60 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# Rhino / Grasshopper / computational-design additions
+# ---------------------------------------------------------------------------
+
+# Rhino documents, backups and autosaves
+*.3dm
+*.3dmbak
+*.rhl
+*.rhino_bak
+rhino_autosave/
+
+# Grasshopper definitions and recovery files
+*.gh
+*.ghx
+*.ghpy
+*.ghuser
+AutoSave/
+*.ghx.bak
+
+# 3-D assets - design assets, not source code.
+# See projects/parametric-timber-student-housing/docs/ASSETS_REQUIRED.md
+*.obj
+*.mtl
+*.stl
+*.glb
+*.gltf
+*.fbx
+*.3ds
+*.skp
+block module placement/
+3d model for configurator/
+
+# Generated validation output
+*_result.json
+v29_headless_validation_result.json
+biodiversity_reports/
+LOCAL_FLORA_FAUNA_STRATEGY_*.md
+*_species.csv
+
+# Temporary exports
+exports/
+temp_exports/
+*.tmp
+
+# Editor metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system clutter
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
